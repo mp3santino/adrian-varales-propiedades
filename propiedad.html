@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Propiedad — Adrián Varales Propiedades</title>
+<meta name="description" content="Detalle de propiedad en Tandil. Adrián Varales Propiedades." />
+<link rel="icon" href="assets/brand/logo-av.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Jost:wght@300;400;500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=3" />
+</head>
+<body>
+
+<header class="nav inverted" id="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__logo" href="index.html"><img src="assets/brand/logo-av.png" alt="Adrián Varales Propiedades" /></a>
+    <nav class="nav__links">
+      <a href="index.html">Inicio</a>
+      <a href="propiedades.html">Propiedades</a>
+      <a href="index.html#about">Adrián</a>
+      <a href="index.html#proceso">Cómo trabajo</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+    <div class="nav__right">
+      <a class="btn btn-primary nav__cta desktop" id="navWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <button class="nav__burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <nav>
+    <a href="index.html">Inicio <span>01</span></a>
+    <a href="propiedades.html">Propiedades <span>02</span></a>
+    <a href="index.html#about">Adrián <span>03</span></a>
+    <a href="index.html#proceso">Cómo trabajo <span>04</span></a>
+    <a href="index.html#contacto">Contacto <span>05</span></a>
+  </nav>
+  <div class="mobile-menu__foot">
+    <a id="mWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://instagram.com/adrianvarales.propiedades" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</div>
+
+<main class="detail" id="detail">
+  <div class="wrap">
+    <a href="propiedades.html" class="ulink" style="display:inline-flex;margin-bottom:1.6rem">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="transform:rotate(180deg)"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      Volver al catálogo
+    </a>
+    <div id="gallery"></div>
+    <div id="content"></div>
+  </div>
+
+  <section class="section" style="padding-top:clamp(60px,8vw,110px)">
+    <div class="wrap">
+      <div class="shead">
+        <div data-reveal>
+          <span class="eyebrow">También te puede interesar</span>
+          <h2 class="shead__title" style="margin-top:1rem;font-size:clamp(1.8rem,4vw,3rem)">Más <em>propiedades</em></h2>
+        </div>
+        <a href="propiedades.html" class="ulink" data-reveal data-reveal-d="1">Ver todo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="pgrid" id="related"></div>
+    </div>
+  </section>
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lbClose" aria-label="Cerrar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lightbox__nav prev" id="lbPrev" aria-label="Anterior">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6"/></svg>
+  </button>
+  <img id="lbImg" src="" alt="" />
+  <button class="lightbox__nav next" id="lbNext" aria-label="Siguiente">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+  <div class="lightbox__count" id="lbCount"></div>
+</div>
+
+<footer class="footer" id="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/brand/logo-av.png" alt="Adrián Varales Propiedades" />
+        <p>Inmobiliaria en Tandil. Acompañamiento cercano y profesional para comprar, vender y alquilar.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Navegación</h4>
+        <a href="index.html">Inicio</a>
+        <a href="propiedades.html">Propiedades</a>
+        <a href="index.html#about">Adrián</a>
+        <a href="index.html#proceso">Cómo trabajo</a>
+      </div>
+      <div class="footer__col">
+        <h4>Operaciones</h4>
+        <a href="propiedades.html?tipo=Casa">Casas</a>
+        <a href="propiedades.html?tipo=Departamento">Departamentos</a>
+        <a href="propiedades.html?tipo=Local">Locales</a>
+        <a href="propiedades.html?tipo=Lote">Lotes</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <a id="fWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://instagram.com/adrianvarales.propiedades" target="_blank" rel="noopener">Instagram</a>
+        <span>Tandil, Buenos Aires</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Adrián Varales Propiedades</span>
+      <span>Tandil · Argentina</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js?v=3"></script>
+<script src="js/main.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Temporales de desarrollo
+_shots/
+_chrometmp/
+_intake/
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Fuentes privadas (NO publicar)
+WhatsApp Chat*/
+*.xlsx
+*.xls
+*.zip
+*.mp4
+*.csv
